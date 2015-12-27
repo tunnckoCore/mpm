@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function mpm () {
+mpm () {
   case "$1" in
     "install")  sudo pacman -S $2;;
     "update")   sudo pacman -Syu;;
