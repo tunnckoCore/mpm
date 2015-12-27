@@ -41,5 +41,5 @@ if [[ ${BASH_SOURCE[0]} != $0 ]]; then
   export -f mpm
 else
   mpm "${@}"
-  exit 0
+  exit $?
 fi
