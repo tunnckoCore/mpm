@@ -8,7 +8,7 @@ Frontend package manger for ArchLinux's Pacman
 [bpkg](https://github.com/bpkg/bpkg)
 
 ```sh
-$ bpkg install mpm -g
+$ bpkg install tunnckoCore/mpm -g
 ```
 
 *source:*
