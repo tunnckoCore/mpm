@@ -15,7 +15,9 @@ mpm () {
     "sync") 	  sudo pacman -Syy;;
     "cc") 	    sudo pacman -Scc;;
     "db")	      sudo pacman -Q;;
-    *) echo "My Pacman Manager - v0.1.0
+    *)
+  echo "mpm v0.1.0 
+Frontend package manger for ArchLinux's Pacman
 
 usage: mpm [command] [<task>]
 
@@ -33,7 +35,7 @@ commands:
   sync - full sync
   cc - clean cache
   db - list installed packages
-    ";;
+";;
   esac
 }
 
